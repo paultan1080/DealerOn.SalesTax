@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerOn.SalesTax.Domain", "DealerOn.SalesTax.Domain\DealerOn.SalesTax.Domain.csproj", "{A083603C-FC7F-4620-8E84-FCCFCC95BC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerOn.SalesTax.Domain.Sqlite", "DealerOn.SalesTax.Domain.Sqlite\DealerOn.SalesTax.Domain.Sqlite.csproj", "{8A5CAABB-3711-4A41-A7EF-527E9CC6DC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerOn.SalesTax.Core", "DealerOn.SalesTax.Core\DealerOn.SalesTax.Core.csproj", "{3B64295A-C1DD-4B8B-A307-EBBFA2896D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerOn.SalesTax.Tests", "DealerOn.SalesTax.Tests\DealerOn.SalesTax.Tests.csproj", "{38A8A1D7-FA3D-4FA3-80D1-AD00648188CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerOn.SalesTax.Console", "DealerOn.SalesTax.Console\DealerOn.SalesTax.Console.csproj", "{CD97D607-BE98-45BE-9AC5-D6F8C9D46C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealerOn.SalesTax.Web", "DealerOn.SalesTax.Web\DealerOn.SalesTax.Web.csproj", "{98DC8875-27EB-4EB9-8C86-9FBA7DCA7C1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A083603C-FC7F-4620-8E84-FCCFCC95BC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A083603C-FC7F-4620-8E84-FCCFCC95BC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A083603C-FC7F-4620-8E84-FCCFCC95BC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A083603C-FC7F-4620-8E84-FCCFCC95BC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5CAABB-3711-4A41-A7EF-527E9CC6DC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5CAABB-3711-4A41-A7EF-527E9CC6DC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5CAABB-3711-4A41-A7EF-527E9CC6DC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5CAABB-3711-4A41-A7EF-527E9CC6DC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B64295A-C1DD-4B8B-A307-EBBFA2896D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B64295A-C1DD-4B8B-A307-EBBFA2896D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B64295A-C1DD-4B8B-A307-EBBFA2896D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B64295A-C1DD-4B8B-A307-EBBFA2896D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A8A1D7-FA3D-4FA3-80D1-AD00648188CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A8A1D7-FA3D-4FA3-80D1-AD00648188CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A8A1D7-FA3D-4FA3-80D1-AD00648188CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A8A1D7-FA3D-4FA3-80D1-AD00648188CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD97D607-BE98-45BE-9AC5-D6F8C9D46C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD97D607-BE98-45BE-9AC5-D6F8C9D46C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD97D607-BE98-45BE-9AC5-D6F8C9D46C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD97D607-BE98-45BE-9AC5-D6F8C9D46C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DC8875-27EB-4EB9-8C86-9FBA7DCA7C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DC8875-27EB-4EB9-8C86-9FBA7DCA7C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DC8875-27EB-4EB9-8C86-9FBA7DCA7C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DC8875-27EB-4EB9-8C86-9FBA7DCA7C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
