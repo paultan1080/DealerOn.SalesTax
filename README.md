@@ -9,13 +9,9 @@ The project consists of two front-end components:
 
 ## Table of Contents
 
-- [Quick Start](#quick-test)
-- [Project Setup](#project-setup)
-- [Running the Console Application](#running-the-console-application)
-- [Running the Web Application](#running-the-web-application)
-- [Using Docker](#using-docker)
-  - [Building and Running the Docker Container](#building-and-running-the-docker-container)
-- [Configuration](#configuration)
+- [DealerOn Sales Tax Project](#dealeron-sales-tax-project)
+  - [Quick Start](#quick-start)
+  - [Architecture](#architecture)
 
 ---
 
