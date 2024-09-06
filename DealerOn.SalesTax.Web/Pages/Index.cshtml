@@ -1,0 +1,25 @@
+﻿@page
+@model DealerOn.SalesTax.Web.Pages.ShoppingBasketProcessorModel
+@{
+    ViewData["Title"] = "Shopping Basket Processor";
+}
+
+<h1>Shopping Basket Processor</h1>
+
+<form method="post">
+    <div>
+        <label for="ShoppingCartInput">Enter your shopping cart:</label><br>
+        <textarea id="ShoppingCartInput" name="ShoppingCartInput" rows="10" cols="50">@Model.ShoppingCartInput</textarea>
+    </div>
+    <div>
+        <button type="submit">Process</button>
+    </div>
+</form>
+
+@if (Model.Receipt != null)
+{
+    <h2>Receipt</h2>
+    <pre>@Model.Receipt</pre>
+}
+
+    
